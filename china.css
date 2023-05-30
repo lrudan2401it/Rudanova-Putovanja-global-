@@ -1,0 +1,110 @@
+.naslov{
+    position: relative;
+    /*float: right;*/
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+
+    background: url(image/china/DSCN0003.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.naslov h1{
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 12.5em;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    mix-blend-mode: overlay;
+}
+
+#beijing1{
+    background-color: rgb(215, 39, 15);
+    height: 200px;
+    text-align: center;
+}
+#forbiddencity1{
+    background-color: rgb(247, 247, 0);
+    height: 200px;
+    text-align: center;
+}
+#templeofheaven1{
+    background-color: white;
+    height: 200px;
+    text-align: center;
+}
+
+
+#beijing1 h1{
+    font-size: 108px;
+    color: rgb(247, 247, 0);
+    padding-top: 50px;
+}
+#forbiddencity1 h1{
+    font-size: 108px;
+    color: rgb(215, 39, 15);
+    padding-top: 50px;
+}
+#templeofheaven1 h1{
+    font-size: 108px;
+    padding-top: 50px;
+}
+
+
+#beijing2{
+    background-color: rgb(215, 39, 15);
+    height: 800px;
+}
+
+.gridbeijing{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 100px;
+}
+
+#greatwall{
+    background: url(image/china/DSCN0054.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#greatwall1 h1{
+    font-size: 108px;
+    text-align: center;
+}
+
+.pandawalk{
+    position: relative;
+    margin-top: 600px;  
+}
+
+.panda{
+    background: url(image/china/panda-transparent.png);
+    width: 91px; /* 824/9 */
+    height: 270px;
+    animation: walk 1s steps(9) infinite, forward 5s linear infinite;
+}
+
+@keyframes walk{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 824px;
+    }
+}
+
+@keyframes forward{
+    0%{
+        transform:  translateX(-1400px);
+    }
+    100%{
+        transform: translateX(1200px);
+    }
+}

@@ -1,0 +1,119 @@
+.naslov{
+    position: relative;
+    float: right;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 1050px;
+    background: url(image/srilanka/DSCN8988a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.naslov h1{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    left: 22.5%;
+    font-size: 12.5em;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    mix-blend-mode: overlay;
+}
+
+
+.cases{
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 750px;
+    padding: 150px 175px;background-color: rgb(223, 117, 0);
+}
+
+.cases img{
+    height: 200px;
+    width: 300px;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cases .row{
+    display: flex;      
+    flex-wrap: wrap;
+}
+
+.cases .column{
+    flex: 25%;
+}
+
+
+.banner{
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-size: 12.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 500px;
+    mix-blend-mode: screen;
+}
+
+
+
+.fotke{
+    position: relative;
+    text-align: center;
+    float: right;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(146, 208, 80);
+}
+
+.fotke img{
+    margin: 30px 15px;
+	max-width: 30%;
+	max-height: 500px;
+	vertical-align: middle;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fotke a{
+	display: inline-block;
+	background-color: #303030;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin: 50px 5px;
+	border-radius: 3px;
+	-webkit-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;
+}
